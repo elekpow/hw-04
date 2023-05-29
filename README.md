@@ -62,6 +62,16 @@
 - [ ] Прикрепите к файлу README.md скриншот из интерфейса Prometheus вкладки Status > Targets, чтобы было видно минимум два эндпоинта
 
  ---
+### Выполнения задания 3
+
+ ![screen1](https://github.com/elekpow/hw-04/blob/main/Configuration.JPG)  
+ 
+ 
+ 
+ ![screen1](https://github.com/elekpow/hw-04/blob/main/Targets.JPG)  
+
+
+
 
 
 ### Задание 4* со звёздочкой
