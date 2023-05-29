@@ -43,7 +43,9 @@
 
 ### Выполнения задания 2
 
-
+ ![screen1](https://github.com/elekpow/hw-04/blob/main/node_exporter_service.JPG)  
+ 
+ 
  ---
 
 ### Задание 3
