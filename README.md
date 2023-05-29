@@ -103,4 +103,6 @@
 
 ### Выполнения задания 5 
  
+ ![screen1](https://github.com/elekpow/hw-04/blob/main/dashboard.JPG)  
+
 
