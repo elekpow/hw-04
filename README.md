@@ -20,6 +20,33 @@
 ### Выполнения задания 1
 
 
+Запуск 
+
+/usr/local/bin/prometheus --config.file /etc/prometheus/prometheus.yml --storage.tsdb.path /var/lib/prometheus/ --web.console.templates=/etc/prometheus/consoles --web.console.libraries=/etc/prometheus/console_libraries
+
+
+структура сервиса
+
+[Unit]
+Description=Prometheus Service Netology Lesson 9.4 - Левин И.С.
+After=network.target
+[Service]
+User=prometheus
+Group=prometheus
+Type=simple
+ExecStart=/usr/local/bin/prometheus \
+--config.file /etc/prometheus/prometheus.yml \
+--storage.tsdb.path /var/lib/prometheus/ \
+--web.console.templates=/etc/prometheus/consoles \
+--web.console.libraries=/etc/prometheus/console_libraries
+ExecReload=/bin/kill -HUP $MAINPID Restart=on-failure
+[Install]
+WantedBy=multi-user.target
+
+
+ ![screen1](https://github.com/elekpow/hw-04/blob/main/Prometheus_service.JPG)  
+
+
 
  ---
 
